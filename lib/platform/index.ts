@@ -9,6 +9,7 @@ const platforms = new Map([
   ['azure', require('./azure')],
   ['bitbucket', require('./bitbucket')],
   ['bitbucket-server', require('./bitbucket-server')],
+  ['gerrit', require('./gerrit')],
   ['github', require('./github')],
   ['gitlab', require('./gitlab')],
 ]);
